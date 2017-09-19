@@ -217,7 +217,7 @@ input[type=submit]:hover {
   .wrapper {
     /* Box-model */
     width: 100%;
-    padding: 20px;
+    padding: 0px;
   }
 
   #main-content,
@@ -235,6 +235,11 @@ input[type=submit]:hover {
     position: relative;
   }
 
+  #img-profile {
+    width: 100px;
+    height: 100px;
+  }
+
   .footer {
     position: fixed;
     width: 100%;
@@ -244,10 +249,18 @@ input[type=submit]:hover {
     bottom: 0;
   }
 
- }
+  .topnav a {
+    float: left;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
 
+  p {
 
-
+    width: 100%;
+  }
+  
+}
 
  /* Style the top navigation bar */
 
